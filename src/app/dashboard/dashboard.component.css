@@ -1,0 +1,33 @@
+/* ✅ Navbar Styling */
+.navbar {
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+/* ✅ Project Cards */
+.card {
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* ✅ Task Badges */
+.badge {
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+/* ✅ Table Styling */
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+    .col-md-5 {
+        margin-top: 20px;
+    }
+}
